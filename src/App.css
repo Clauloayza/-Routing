@@ -62,7 +62,6 @@ a:-webkit-any-link {
   -webkit-box-shadow: 0 3px rgba(0,0,0,.1);
   box-shadow: 0 3px rgba(0,0,0,.1);
   overflow: hidden;
-  margin-top: 25px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -82,6 +81,7 @@ li {
 a {
   text-decoration: none;
   color: #3b80d1;
+  padding: 95px 0;
 }
 .main-nav a, .not-found {
   text-align: center;
@@ -107,13 +107,21 @@ h2 {
   margin-bottom: 1.25em;
 }
 .teacher-img {
-  width: 100%;
+  width: 95%;
   border-radius: .3em;
 }
 .group:after {
   content: "";
   display: table;
   clear: both;
+}
+ul, menu, dir {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
 }
 .course-nav a.active, .course-nav a:hover {
   color: #fff;
@@ -158,7 +166,7 @@ h2 {
   .main-nav a {
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
-    padding: 1.25em 1.5em;
+    padding: 1em 1em;
   }
   .teacher {
     width: 48.73%;
