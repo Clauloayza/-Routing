@@ -130,6 +130,11 @@ h2 {
   background: #eaebeb;
   transition: .2s;
 }
+.course-nav a:hover {
+  color: #fff;
+  background: #39add1;
+  text-decoration: none;
+}
 .course {
   margin-bottom: 1em;
 }
