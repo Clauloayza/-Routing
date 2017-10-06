@@ -31,7 +31,7 @@ class About extends Component {
 class Teachers extends Component {
 	render() {
 		return (
-			<div className="main-content container">
+			<div className="main-content container-fluid">
 				<h2>Teachers</h2>
 				<ul className="group">
 					<li className="teacher">
